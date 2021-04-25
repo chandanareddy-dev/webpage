@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  .header{
+    background-color:#e5e5e5;
+    padding:15px;
+    text-align:center;
+  }
+  .web{
+      color:black;
+      background-color: white;
+  }
+  .links{
+    overflow:auto;
+  }
+  .main-heading{
+      color:green;
+  }
+  .heading{
+      color: red;
+      font-weight: 200;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: larger;
+  }
+  .menu {
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+  .discription{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .menu a {
+    background-color:#bb7d7d;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+  }
+  .main {
+    float:left;
+    width:60%;
+    padding:0 20px;
+  }
+  .right {
+    background-color:#bb7d7d;
+    float:left;
+    width:20%;
+    height: 50%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+  }
+  .footer{
+    background-color:#571212;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+  }
+  
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right ,.discription,.footer,.header,.heading,.links,.main,.main-heading,.menu,.right,.web{
+      width:100%;
+    }
+  }
+  
